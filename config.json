@@ -1,0 +1,23 @@
+{   
+    "unet_config":{
+        "t_emb_dim": 128
+    },
+    "diffusion_config":{
+        "T": 1000,
+        "beta_0": 0.0001,
+        "beta_T": 0.02
+    },
+    "train_config": {
+        "output_directory": "model/celebahq",
+        "ckpt_epoch": "max",
+        "n_epochs": 1000,
+        "learning_rate": 1e-4,
+        "batch_size": 2
+    },
+    "gen_config":{
+        "output_directory": "plots/celebahq",
+        "ckpt_path": "model/celebahq",
+        "ckpt_epoch": "max",
+        "n": 4
+    }
+}
