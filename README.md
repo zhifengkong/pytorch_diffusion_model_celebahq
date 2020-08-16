@@ -1,4 +1,4 @@
-PyTorch implementation of the [denoising diffusion probabilistic models](https://hojonathanho.github.io/diffusion) on the celebahq (256 * 256) dataset.
+PyTorch implementation of [denoising diffusion probabilistic models](https://hojonathanho.github.io/diffusion) on the celebahq (256 * 256) dataset.
 
 # Training:
 First, download the celebahq 256 * 256 dataset in [this link](https://drive.google.com/drive/folders/11Vz0fqHS2rXDb5pprgTjpD7S2BAJhi1P). Rename the folder to 'CELEBAHQ' and save it under ```data/```. Then, the images paths are going to be ```data/CELEBAHQ/all/00001.img ~ 30000.img```
